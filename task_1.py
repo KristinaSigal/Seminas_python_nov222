@@ -7,7 +7,9 @@
 a = int(input('Введите число a '))
 b = int(input('Введите число b '))
 
-if a == b ** 2 or b == a ** 2:
-    print('True')
-else:
-    print('False')
+# if a == b ** 2 or b == a ** 2:
+#     print('True')
+# else:
+#     print('False')
+
+print(a == b ** 2 or b == a ** 2)
