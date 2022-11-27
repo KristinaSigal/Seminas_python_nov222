@@ -11,6 +11,7 @@ d = int(input('Введите число d '))
 e = int(input('Введите число e '))
 
 some_list = [a, b, c, d, e]
+print(some_list)
 max = some_list[0]
 for i in some_list:
     if max < i: 

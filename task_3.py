@@ -4,6 +4,10 @@
 # Ввод: значение типа <int>
 # Вывод: любая коллекция значений типа <int>
 
-N = int(input('Введите целое число '))
-for i in range(-N, N + 1, 1):
-    print(i)
+# N = int(input('Введите целое число '))
+# for i in range(-N, N + 1, 1):
+#     print(i, end = ' ')
+
+num = int(input('Введите целое число '))
+num_list = list(range(-num, num + 1))
+print(*num_list, sep = ', ')
